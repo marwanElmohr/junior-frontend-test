@@ -1,0 +1,11 @@
+{
+  "name": "junior-frontend-test",
+  "private": true,
+  "workspaces": [
+    "react-task-manager"
+  ],
+  "scripts": {
+    "web": "npm --workspace react-task-manager run dev",
+    "mobile": "npm --prefix react-native-user-list run start"
+  }
+}
